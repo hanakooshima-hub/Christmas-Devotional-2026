@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245b43">
+  <title>Christmas Devotional 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="topline"><span>✦ A PERSONAL ADVENT JOURNEY ✦</span><button id="languageBtn" class="language">日本語</button></div>
+    <p class="eyebrow">NOVEMBER 12 — DECEMBER 25, 2026</p>
+    <h1>Christmas<br><em>Devotional</em> 2026</h1>
+    <p id="tagline">44 days to prepare your heart for Christmas</p>
+    <div class="countdown" id="countdown"></div>
+  </header>
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="progress-card">
+        <p class="eyebrow" id="progressLabel">YOUR JOURNEY</p>
+        <strong id="progressText">0 / 44 days</strong>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+      <label for="daySelect" id="chooseDay">Choose a day</label>
+      <select id="daySelect"></select>
+      <div class="day-list" id="dayList"></div>
+    </aside>
+    <article class="devotion">
+      <div class="date-line"><span id="dayNumber">DAY 1</span><span id="dateText"></span></div>
+      <p class="theme" id="theme"></p>
+      <h2 id="title"></h2>
+      <section class="scripture"><p class="section-label" id="scriptureLabel">TODAY'S SCRIPTURE</p><strong id="scripture"></strong><p id="scriptureHint">Read the passage in your preferred Bible translation.</p></section>
+      <section><p class="section-label" id="reflectionLabel">REFLECTION</p><p id="reflection" class="body-copy"></p></section>
+      <section class="prayer"><p class="section-label" id="prayerLabel">TODAY'S PRAYER</p><p id="prayer" class="body-copy"></p></section>
+      <section class="english-box"><p class="section-label">ENGLISH CORNER</p><strong id="phrase"></strong><p id="meaning"></p><small id="phraseNote"></small></section>
+      <section class="journal">
+        <label class="section-label" for="journal" id="journalLabel">MY REFLECTION & PRAYER JOURNAL</label>
+        <p id="question" class="question"></p>
+        <textarea id="journal" rows="5" placeholder="Write your thoughts or prayer here..."></textarea>
+        <small id="privacyNote">Your journal is saved only in this browser on this device. It is not uploaded to GitHub.</small>
+      </section>
+      <div class="actions"><button id="completeBtn">Mark as completed ✓</button><div><button class="outline" id="prevBtn">← Previous</button><button class="outline" id="nextBtn">Next →</button></div></div>
+    </article>
+  </main>
+  <footer>May this season draw your heart closer to God. <span>✦</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
